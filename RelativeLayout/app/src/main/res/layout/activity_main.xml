@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-127dp"
+        tools:layout_editor_absoluteY="57dp">
+
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="107dp">
+
+            <TextView
+                android:id="@+id/Poids"
+                android:layout_width="149dp"
+                android:layout_height="46dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="42dp"
+                android:layout_weight="1"
+                android:text="Taille" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="274dp"
+                android:layout_height="57dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <TextView
+                android:id="@+id/Taille"
+                android:layout_width="149dp"
+                android:layout_height="46dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="39dp"
+                android:layout_weight="1"
+                android:text="Taille" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="276dp"
+                android:layout_height="38dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="118dp"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginRight="-2dp"
+                android:layout_marginBottom="46dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="388dp"
+            android:layout_height="316dp">
+
+            <RadioButton
+                android:layout_width="69dp"
+                android:layout_height="72dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="42dp"
+                android:text="Metre" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="266dp"
+                android:layout_height="72dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="42dp"
+                android:text="Centimetre" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="381dp"
+            android:layout_height="354dp">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="25dp"
+                android:text="Mega fonction !" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="446dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="40dp"
+                android:text="Calculer"  />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="51dp"
+                android:layout_marginRight="51dp"
+                android:layout_marginBottom="40dp"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="511dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="49dp"
+                android:text="Resultat:" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="392dp"
+            android:layout_height="555dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="362dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="22dp"
+                android:text="Vous devez cliquer sur le bouton<calculer> pour obtenire un resultat" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

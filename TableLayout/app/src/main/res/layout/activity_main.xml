@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="99dp">
+        <View
+            android:layout_height="2dip"
+            android:background="#ff909090"
+            />
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Poids"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:text="Poids" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="304dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/Taille"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Taille" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="426dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#ff909090"
+            />
+        <TableRow>
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Metre" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Centimetre" />
+
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#ff909090"
+            />
+        <TableRow>
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Mega fonction !" />
+
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:text="Calculer" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:text="Button" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Resultat:" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="194dp"
+                android:layout_weight="1"
+                android:text="Vous devez cliquer sur le bouton calculer pour obtenire un resultat" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
